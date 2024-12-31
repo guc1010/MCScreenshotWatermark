@@ -3,7 +3,7 @@
         <style>
             text {
                 fill: #fff;
-                font-family: Minecraft, Unifont;
+                font-family: Minecraft, Monocraft, Unifont;
                 font-size: 64pt;
             }
             .shader {
