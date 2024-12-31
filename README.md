@@ -21,6 +21,13 @@ Windows平台，给Minecraft截图自动加水印，适用于[商弦](https://gu
 1. 安装 inkscape（https://inkscape.org/release/）
 1. 检查 inkscape 是否安装到了`C:\Program Files\Inkscape\bin\inkscape.exe`，如果不是，打开`watermark.py`手动将`inkscape_path = 'C:/Program Files/Inkscape/bin/inkscape'`修改为正确路径。
 
+### 安装字体
+
+1. 下载并安装 Unifont 字体：https://www.unifoundry.com/pub/unifont/unifont-16.0.02/font-builds/unifont-16.0.02.otf
+1. 下载并安装 Minecraft 字体（非开源字体，不提供链接，请自行寻找下载）
+1. 若不想使用非开源字体，在此下载安装 Monocraft 字体替代：https://github.com/IdreesInc/Monocraft/releases/download/v4.0/Monocraft.ttc
+1. 若不想使用以上字体，请自行编辑`temp.svg`
+
 ### 下载RoboIntern
 
 此软件用于监测新增截图自动执行水印脚本。
