@@ -1,13 +1,13 @@
-<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="https://www.w3.org/2000/svg">
     <defs>
         <style>
             text {
                 fill: #fff;
                 font-family: Minecraft, Monocraft, Unifont;
-                font-size: 64pt;
+                font-size: 54px;
             }
-            .shader {
-                font-size: 48pt;
+            .date {
+                font-size:
             }
             .title {
                 font-size: 72pt;
@@ -25,13 +25,22 @@
     <text class="title" x="34" y="96">
         {{title}}
     </text>
-    <text x="32" y="1048">
-        {{username}}
+    <text x="32" y="1004">
+        {{username}} 
     </text>
-    <text x="1776" y="1048" text-anchor="end">
-        {{date}} 摄于商弦
+    <text x="32" y="1064">
+        摄于 {{date}}
     </text>
-    <text class="shader" x="1888" y="84" text-anchor="end">
+    <text class="date" x="1776" y="1008" text-anchor="end">
+        商弦 Minecraft 服务器
+    </text>
+    <text class="date" x="1776" y="1064" text-anchor="end">
+        https://guc1010.top
+    </text>
+    <text x="1888" y="56" text-anchor="end">
+        {{resource_pack}}
+    </text>
+    <text x="1888" y="112" text-anchor="end">
         {{shader_pack}}
     </text>
 </svg>
