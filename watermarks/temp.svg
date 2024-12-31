@@ -1,0 +1,37 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <style>
+            text {
+                fill: #fff;
+                font-family: Minecraft, Unifont;
+                font-size: 64pt;
+            }
+            .shader {
+                font-size: 48pt;
+            }
+            .title {
+                font-size: 72pt;
+            }
+        </style>
+    </defs>
+    <image href="../screenshots/{{image_file}}" x="0" y="0" />
+    <image href="template.png" x="0" y="0" />
+    <text class="title" x="32" y="96">
+        {{title}}
+    </text>
+    <text class="title" x="33" y="96">
+        {{title}}
+    </text>
+    <text class="title" x="34" y="96">
+        {{title}}
+    </text>
+    <text x="32" y="1048">
+        {{username}}
+    </text>
+    <text x="1776" y="1048" text-anchor="end">
+        {{date}} 摄于商弦
+    </text>
+    <text class="shader" x="1888" y="84" text-anchor="end">
+        {{shader_pack}}
+    </text>
+</svg>
