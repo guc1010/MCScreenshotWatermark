@@ -1,0 +1,2 @@
+# MCScreenshotWatermark
+给Minecraft截图自动加水印
