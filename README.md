@@ -30,7 +30,7 @@ Windows平台，给Minecraft截图自动加水印，适用于[商弦](https://gu
 
 ### 下载RoboIntern
 
-此软件用于监测新增截图自动执行水印脚本。
+此软件用于监测新增截图自动执行水印脚本。若不想使用此软件，可在截图后手动运行`watermark.py`脚本。
 
 1. 下载 RoboIntern（https://robointern.tech/release/RoboIntern.zip）
 1. 解压至任意目录，双击打开`RoboIntern.exe`
