@@ -64,7 +64,7 @@ print(f'username: {username}')
 print(f'title: {title}')
 print(f'date: {date}')
 
-with open('watermarks/temp.svg', 'r', encoding='utf-8') as f:
+with open('temp.svg', 'r', encoding='utf-8') as f:
     svg = f.read()
 
 svg = svg.replace('{{resource_pack}}', resource_pack)
@@ -74,8 +74,8 @@ svg = svg.replace('{{title}}', title)
 svg = svg.replace('{{date}}', date)
 svg = svg.replace('{{image_file}}', pngs[-1])
 
-with open(f'watermarks/{pngs[-1][:-4]}-sig.svg', 'w', encoding='utf-8') as f:
+with open(f'{pngs[-1][:-4]}-sig.svg', 'w', encoding='utf-8') as f:
     f.write(svg)
 
-subprocess.run([inkscape_path, f'watermarks/{pngs[-1][:-4]}-sig.svg', '-o', f'watermarks/{pngs[-1][:-4]}-sig.png'])
-os.remove(f'watermarks/{pngs[-1][:-4]}-sig.svg')
+subprocess.run([inkscape_path, f'{pngs[-1][:-4]}-sig.svg', '-o', f'watermarks/{pngs[-1][:-4]}-sig.png'])
+os.remove(f'{pngs[-1][:-4]}-sig.svg')
