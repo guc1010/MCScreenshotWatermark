@@ -65,3 +65,4 @@ with open(f'watermarks/{pngs[-1][:-4]}-sig.svg', 'w', encoding='utf-8') as f:
     f.write(svg)
 
 subprocess.run([inkscape_path, f'watermarks/{pngs[-1][:-4]}-sig.svg', '-o', f'watermarks/{pngs[-1][:-4]}-sig.png'])
+os.remove(f'watermarks/{pngs[-1][:-4]}-sig.svg')
